@@ -27,7 +27,7 @@ body {
 }
 
 .file-upload-btn:hover {
-  background: #1aa059;
+  background: #85a8ef;
   color: #ffffff;
   transition: all 0.2s ease;
   cursor: pointer;
@@ -56,13 +56,13 @@ body {
 
 .image-upload-wrap {
   margin-top: 20px;
-  border: 4px dashed #1fb264;
+  border: 4px dashed #5b88e3;
   position: relative;
 }
 
 .image-dropping,
 .image-upload-wrap:hover {
-  background-color: #1fb264;
+  background-color: #8eaff0;
   border: 4px dashed #ffffff;
 }
 
@@ -79,26 +79,26 @@ body {
 .drag-text h4 {
   font-weight: 100;
   text-transform: uppercase;
-  color: #15824b;
+  color: #5b88e3;
   padding: 60px 0;
 }
 
 .file-upload-image {
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 330px;
+  max-width: 330px;
   margin: auto;
   padding: 20px;
 }
 
 .remove-image {
-  width: 200px;
+  width: 185px;
   margin: 0;
   color: #fff;
-  background: #cd4535;
+  background: #7599e0;
   border: none;
   padding: 10px;
-  border-radius: 4px;
-  border-bottom: 4px solid #b02818;
+  border-radius: 8px;
+  border-bottom: 4px solid #5b88e3;
   transition: all 0.2s ease;
   outline: none;
   text-transform: uppercase;
@@ -106,7 +106,7 @@ body {
 }
 
 .remove-image:hover {
-  background: #c13b2a;
+  background: #4f75c2;
   color: #ffffff;
   transition: all 0.2s ease;
   cursor: pointer;
@@ -153,4 +153,160 @@ body {
   html {
     font-size: 12px;
   }
+}
+
+.result-message {
+  color: #5f92f9;
+}
+
+.cloud-label {
+  width: 30%;
+  text-align: left;
+  height: 2rem;
+}
+
+.label-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.result-message {
+  font-size: 2rem;
+}
+
+.label {
+  cursor: pointer;
+  display: inline-block;
+  width: 90px;
+  height: 41px;
+  box-shadow: 0 0 0 8px #e5e9ea inset;
+  border-radius: 30px;
+  position: relative;
+}
+
+.bar-container {
+  height: 2.7rem;
+}
+
+.clo1-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(117, 204, 84, 0.2);
+}
+.clo1-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(117, 204, 84, 1);
+}
+.clo2-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(117, 204, 84, 0.2);
+}
+.clo2-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(117, 204, 84, 1);
+}
+.clo3-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(27, 175, 234, 0.2);
+}
+.clo3-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(27, 175, 234, 1);
+}
+.clo4-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(251, 176, 59, 0.2);
+}
+.clo4-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(251, 176, 59, 1);
+}
+.clo5-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(195, 140, 102, 0.2);
+}
+.clo5-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(195, 140, 102, 1);
+}
+.clo6-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(49, 132, 155, 0.2);
+}
+.clo6-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(49, 132, 155, 1);
+}
+.clo7-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(235, 166, 190, 0.2);
+}
+.clo7-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(235, 166, 190, 1);
+}
+.percent-text {
+  font-size: 1rem;
+  color: #ac3535;
 }
