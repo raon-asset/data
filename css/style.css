@@ -196,7 +196,7 @@ body {
   width: 100%;
   background-color: rgba(117, 204, 84, 0.2);
 }
-..clo1-bar {
+.clo1-bar {
   position: absolute;
   top: 0;
   left: 0;
