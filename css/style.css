@@ -149,7 +149,7 @@ body {
 }
 
 /* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   html {
     font-size: 12px;
   }
@@ -196,7 +196,7 @@ body {
   width: 100%;
   background-color: rgba(117, 204, 84, 0.2);
 }
-.clo1-bar {
+..clo1-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -305,6 +305,23 @@ body {
   height: 2rem;
   border-radius: 10px;
   background-color: rgba(235, 166, 190, 1);
+}
+.clo8-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(235, 166, 212, 0.2);
+}
+.clo8-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgb(166, 235, 211);
 }
 .percent-text {
   font-size: 1rem;
